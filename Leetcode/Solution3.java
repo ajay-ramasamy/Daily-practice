@@ -3,7 +3,8 @@ package Leetcode;
 //! 3683. Earliest Time to Finish One Task
 
 public class Solution3 {
-    int n = tasks.length;
+    public int earliestTimeToFinish(int[][] tasks) {
+        int n = tasks.length;
         int m = tasks[0].length;
         int val = Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
@@ -14,4 +15,5 @@ public class Solution3 {
             val = Math.min(val,sum);
         }
         return val;
+    }
 }
