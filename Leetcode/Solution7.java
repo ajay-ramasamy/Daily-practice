@@ -1,5 +1,5 @@
 //! 236. Lowest Common Ancestor of a Binary Tree
-
+package Leetcode;
 import javax.swing.tree.TreeNode;
 
 public class Solution7 {

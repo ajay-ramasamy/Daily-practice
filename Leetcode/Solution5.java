@@ -1,4 +1,5 @@
 //! 1047. Remove All Adjacent Duplicates In String
+package Leetcode;
 import java.util.Stack;
 class Solution5 {
     public String removeDuplicates(String s) {

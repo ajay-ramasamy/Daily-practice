@@ -1,6 +1,5 @@
 //! Maximum Depth of the binary tree;
-
-import java.util.TreeMap;
+package Leetcode;
 
 public class Solution4 {
     class TreeMap {

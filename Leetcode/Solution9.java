@@ -1,5 +1,5 @@
 //! 696. Count Binary Substrings
-
+package Leetcode;
 
 class Solution9 {
     public int countBinarySubstrings(String s) {
