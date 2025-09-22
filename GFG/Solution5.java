@@ -1,5 +1,5 @@
 //! detect cycle in a linked list
-
+package GFG;
 import java.util.HashSet;
 
 class Node {

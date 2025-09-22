@@ -1,4 +1,5 @@
 //! Remove cycle/loop in a linkedlist
+package GFG;
 import java.util.HashSet;
 
 class Node {
