@@ -1,5 +1,5 @@
 //! House roober - 1
-
+package Leetcode;
 public class Solution10 {
     public int rob(int[] nums) {
         int  n = nums.length;
