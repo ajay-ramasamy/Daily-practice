@@ -20,6 +20,7 @@ public class Solution2 {
         String res1 = B.substring(0,1).toUpperCase()+B.substring(1);
         
         System.out.println(res+" "+res1);
+        sc.close();
         
     }
 }

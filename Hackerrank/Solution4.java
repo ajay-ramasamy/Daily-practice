@@ -1,4 +1,5 @@
 //! count the no. of subarray sum is negative
+
 import java.util.*;
 
 public class Solution4 {
@@ -22,5 +23,6 @@ public class Solution4 {
             }
         }
         System.out.println(c);
+        sc.close();
     }
 }

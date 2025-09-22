@@ -13,5 +13,6 @@ public class Solution {
         else{
             System.out.println("Invalid");
         }
+        sc.close();
     }
 }
