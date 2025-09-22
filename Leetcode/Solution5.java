@@ -27,4 +27,10 @@ class Solution5 {
         sb.reverse();
         return sb.toString();
     }
+    
+    public static void main(String[] args) {
+        Solution5 sol = new Solution5();
+        System.out.println(sol.removeDuplicates("abbaca"));
+        System.out.println(sol.removeDuplicates("azxxzy"));
+    }
 }

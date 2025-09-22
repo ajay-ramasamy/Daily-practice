@@ -21,4 +21,10 @@ class Solution2 {
 
         return pref;        
     }
+    
+    public static void main(String[] args) {
+        Solution2 sol = new Solution2();
+        System.out.println(sol.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+        System.out.println(sol.longestCommonPrefix(new String[]{"dog","racecar","car"}));
+    }
 }

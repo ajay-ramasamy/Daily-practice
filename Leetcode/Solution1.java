@@ -30,4 +30,10 @@ class Solution1 {
         
         return 102;
     }
+    
+    public static void main(String[] args) {
+        Solution1 sol = new Solution1();
+        System.out.println(sol.smallestAbsent(new int[]{4,3,2,1}));
+        System.out.println(sol.smallestAbsent(new int[]{1,2,6,10,5,7}));
+    }
 }

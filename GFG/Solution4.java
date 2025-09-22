@@ -25,4 +25,11 @@ public class Solution4 {
         }
         return st.isEmpty();
     }
+    
+    public static void main(String[] args) {
+        Solution4 sol = new Solution4();
+        System.out.println(sol.isBalanced("()[]{}")); 
+        System.out.println(sol.isBalanced("([)]")); 
+        System.out.println(sol.isBalanced("{[]}")); 
+    }
 }

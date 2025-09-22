@@ -22,4 +22,11 @@ public class Solution2 {
         return a;
     }
 }
+    
+    public static void main(String[] args) {
+        Solution2 sol2 = new Solution2();
+        Solution sol = sol2.new Solution();
+        System.out.println(sol.findDuplicates(new int[]{2,3,1,2,3}));
+        System.out.println(sol.findDuplicates(new int[]{0,3,1,2}));
+    }
 }

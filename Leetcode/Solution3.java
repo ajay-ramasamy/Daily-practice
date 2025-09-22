@@ -16,4 +16,10 @@ public class Solution3 {
         }
         return val;
     }
+    
+    public static void main(String[] args) {
+        Solution3 sol = new Solution3();
+        System.out.println(sol.earliestTimeToFinish(new int[][]{{3,2,4},{1,1,3},{2,4,2}}));
+        System.out.println(sol.earliestTimeToFinish(new int[][]{{5,2},{4,3},{3,1}}));
+    }
 }

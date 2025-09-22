@@ -28,4 +28,10 @@ public class Solution {
         }
         return con+vow;
     }
+    
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        System.out.println(sol.maxFreqSum("programming"));
+        System.out.println(sol.maxFreqSum("hello"));
+    }
 }

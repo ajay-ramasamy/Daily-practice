@@ -1,6 +1,15 @@
 //! Remove cycle/loop in a linkedlist
 import java.util.HashSet;
 
+class Node {
+    int data;
+    Node next;
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
 public class Solution6 {
     public static void removeLoop(Node head) {
         
@@ -18,5 +27,14 @@ public class Solution6 {
             
         }
         
+    }
+    
+    public static void main(String[] args) {
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = head.next; // Create cycle
+        removeLoop(head);
+        System.out.println("Loop removed");
     }
 }

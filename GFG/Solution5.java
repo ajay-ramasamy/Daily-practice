@@ -2,6 +2,15 @@
 
 import java.util.HashSet;
 
+class Node {
+    int data;
+    Node next;
+    Node(int data) {
+        this.data = data;
+        this.next = null;
+    }
+}
+
 public class Solution5 {
     public boolean detectLoop(Node head) {
         
@@ -15,5 +24,14 @@ public class Solution5 {
             slow = slow.next;
         }
         return false;
+    }
+    
+    public static void main(String[] args) {
+        Solution5 sol = new Solution5();
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = head.next; // Create cycle
+        System.out.println(sol.detectLoop(head));
     }
 }

@@ -20,4 +20,10 @@ class Solution9 {
         result += Math.min(left,right);
         return result;
     }
+    
+    public static void main(String[] args) {
+        Solution9 sol = new Solution9();
+        System.out.println(sol.countBinarySubstrings("00110011"));
+        System.out.println(sol.countBinarySubstrings("10101"));
+    }
 }

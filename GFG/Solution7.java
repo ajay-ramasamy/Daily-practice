@@ -16,4 +16,11 @@ class Solution7 {
         return max+1;
         
     }
+    
+    public static void main(String[] args) {
+        Solution7 sol = new Solution7();
+        System.out.println(sol.missingNumber(new int[]{1,2,0}));
+        System.out.println(sol.missingNumber(new int[]{3,4,-1,1}));
+        System.out.println(sol.missingNumber(new int[]{7,8,9,11,12}));
+    }
 }
