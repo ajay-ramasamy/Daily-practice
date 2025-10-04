@@ -1,0 +1,29 @@
+//! 1423. Maximum Points You Can Obtain from Cards
+
+class MaximumPoints {
+    public static int maxScore(int[] card, int k) {
+        int lsum = 0, rsum =0, sum=0,maxSum = 0;
+        for(int i=k-1;i>=0;i--){
+            lsum = lsum+card[i];
+        }
+        maxSum = lsum;
+        int r = card.length-1;
+        for(int j=k-1;j>=0;j--){
+            lsum -= card[j];
+            rsum += card[r];
+            r--;
+            maxSum = Math.max(maxSum,lsum+rsum);
+        }
+        return maxSum;
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int arr[] = new int[n];
+        for(int i=0;i<n;i++){
+            arr[i] = sc.nextInt();
+        }
+        int k = sc.nextInt();
+        System.out.println(maxScore(arr,k));
+  }
+}
